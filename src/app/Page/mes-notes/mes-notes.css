@@ -1,0 +1,59 @@
+.conteneur {
+  max-width: 420px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  border-radius: 12px;
+  background: #f7f8fa;
+  font-family: Arial, sans-serif;
+}
+
+h2 {
+  margin-top: 0;
+  color: #1a2340;
+}
+
+.ajout {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 1rem;
+}
+
+.ajout input {
+  flex: 1;
+  padding: 8px 10px;
+  border: 1px solid #ccd0d9;
+  border-radius: 6px;
+}
+
+.ajout button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 6px;
+  background: #e0002f;
+  color: #fff;
+  cursor: pointer;
+}
+
+.ajout button:hover {
+  background: #b80026;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  padding: 10px 12px;
+  margin-bottom: 6px;
+  background: #fff;
+  border-left: 4px solid #e0002f;
+  border-radius: 4px;
+}
+
+.total {
+  margin-top: 1rem;
+  font-weight: bold;
+  color: #555;
+}

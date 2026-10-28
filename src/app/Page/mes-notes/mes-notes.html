@@ -1,0 +1,22 @@
+<div class="conteneur">
+  <h2>Mes notes</h2>
+
+  <!-- Étape 5 : champ + bouton -->
+  <div class="ajout">
+    <input
+      type="text"
+      [(ngModel)]="nouvelleNote"
+      placeholder="Nouvelle note..."
+      (keyup.enter)="ajouterNote()"
+    />
+    <button (click)="ajouterNote()">Ajouter</button>
+  </div>
+
+  <!-- Étape 4 : affichage avec *ngFor -->
+  <ul>
+    <li *ngFor="let note of notes">{{ note }}</li>
+  </ul>
+
+  <!-- Étape 4 : total -->
+  <p class="total">Total : {{ notes.length }}</p>
+</div>
